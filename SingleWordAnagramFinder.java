@@ -1,7 +1,7 @@
 /*
 Author: Christopher Weathers
 Created: August 2022
-Purpose: This is a non-recursive and non-permutation based anagram solver for single words.  Java implementations of
+Purpose: This is a non-recursive and permutation-lite anagram solver for single words.  Java implementations of
 recursive methods of anagram problems are limited by stack overflow issues for longer words.  This algorithm also avoids
 the need to find all permutations of a word, and instead, there are only n-1 permutations needed where n = word length.
 License: Free for use, but please give algorithm credit to author.
